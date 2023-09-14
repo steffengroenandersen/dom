@@ -81,7 +81,7 @@
         //Insert code block 4
         evt.preventDefault()
         const name = document.getElementById("name-input").value
-        names.push(name);
+        names.push(encode(name));
         makeList();
 
     }
